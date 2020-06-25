@@ -1,0 +1,16 @@
+
+# {{upperSnakeCase name}}
+## {{lowerCase name}}
+### {{lowerDotCase name}}
+
+
+This should render with dots between words: {{lowerDotCase name}}
+
+This should render with - between words: {{kebabCase name}}
+
+This should render with _ between words: {{snakeCase name}}
+
+This should render with all but the first word capitilized: {{camelCase name}}
+
+This should render with all but all words capitilized: {{pascalCase name}}
+---
