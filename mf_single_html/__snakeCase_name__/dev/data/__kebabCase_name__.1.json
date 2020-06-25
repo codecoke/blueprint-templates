@@ -1,0 +1,34 @@
+[
+  {
+    "app_info": {
+      "desc": "{{snakeCase name}} desc...",
+      "name": "{{snakeCase name}}",
+      "version": "1.0.0",
+      "author": "mf(at)136.me"
+    },
+    "template": [
+      {
+        "header": [],
+        "main": [],
+        "footer": []
+      }
+    ],
+    "content": {
+      "home": {
+        "head": {
+          "title": "my website home page!"
+        },
+        "header": {},
+        "main": {
+          "txt": "{{snakeCase name}} desc..."
+        },
+        "footer": {}
+      },
+      "about": {
+        "header": {},
+        "main": {},
+        "footer": {}
+      }
+    }
+  }
+]

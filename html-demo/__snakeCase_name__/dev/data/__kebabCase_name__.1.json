@@ -1,0 +1,10 @@
+{
+  "{{snakeCase name}}": {
+    "app_info": {
+      "desc": "{{name}}",
+      "name": "{{snakeCase name}}",
+      "version": "1.0.0",
+      "author": "mf(at)136.me"
+    }
+  }
+}

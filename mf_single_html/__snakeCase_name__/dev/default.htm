@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>home - {{name}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+  <meta name="mf_html" content="{{snakeCase name}}, home">
+  <meta name="description" content="{{lowerDotCase name}}">
+  <link rel="stylesheet" href="style/{{kebabCase name}}.1.css">
+</head>
+<body class="doc-body">
+    <header>
+
+    </header>
+    
+    <main>
+      <h1>{{upperCase name}}</h1>
+
+      <section>
+        <details>
+          <summary>Details 2</summary>
+          Something small enough to escape casual notice.
+      </details>
+      </section>
+      <section>
+        <artilce>
+          <figure> 
+              <h3>Lorem, ipsum dolor. f</h3>             
+              <figcaption>Lorem, ipsum.</figcaption>
+            </figure>
+        </artilce>
+      </section>
+      
+    </main>
+
+    <footer>
+      <nav></nav>
+      <section></section>
+      <div>Copyright &copy; <time>2020 -2046</time> Mf'test</div>
+    </footer>
+
+    <!-- include module {{snakeCase name}} -->
+    <script type="module">
+      import {default as load_page,_el_attr} from './js/mf_htm_site.1.js'
+      load_page();
+    </script>
+</body>
+</html>
